@@ -8,6 +8,10 @@
 
 Jobs done uses [HyperLink](https://apps.apple.com/us/app/hyperlink-push-enabled-links/id1480418373) to send you a push notification with a customizable message when your job finishes.
 
+# Installation
+ 1. Use pip (and Python 3) you lout.
+  * ```$ pip3 install jobsdone```
+
 # How to use it
  1. Install and open [HyperLink](https://apps.apple.com/us/app/hyperlink-push-enabled-links/id1480418373) and copy your key. Run:
   * ```$ jd --key YOUR_KEY_HERE```

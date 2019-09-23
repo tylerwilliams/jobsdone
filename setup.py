@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name = "jobsdone",
-    version = "0.0.3",
+    version = "0.0.5",
     author = "Tyler Williams",
     author_email = "williams.tyler@gmail.com",
     description = ("A little helper to send you a push when your job"
@@ -22,4 +22,5 @@ setup(
       'appdirs',
       'requests',
     ],
+    python_requires=">=3.3",
 )
