@@ -6,15 +6,16 @@ def read(fname):
 
 setup(
     name = "jobsdone",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Tyler Williams",
     author_email = "williams.tyler@gmail.com",
     description = ("A little helper to send you a push when your job"
-                                   "finishes running."),
+                                   " finishes running."),
     license = "MIT",
     keywords = "alert commandline tool",
     url = "http://packages.python.org/jobsdone",
     packages=['jobsdone'],
     scripts=['jobsdone/jd'],
     long_description=read('README.md'),
+    long_description_content_type="text/markdown",
 )
