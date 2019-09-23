@@ -53,7 +53,6 @@ def hit_url(key, message):
   params = {
     "action": "send",
     "key": key,
-    # TODO(tylerw): include {device}-{platform} below.
     "title": "The job on %s in {city}, {region} finished!" % platform.node(),
     "body": message,
   }
